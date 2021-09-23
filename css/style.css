@@ -122,6 +122,8 @@ body {
     padding-top: 40px;
 }
 
+/* sezione 1 */
+
 .prima-sezione {
     width: 70%;
     margin: 150px auto;
@@ -136,4 +138,90 @@ body {
 }
 
 #radio-check {
+    margin-left: 30px;
+}
+
+/* tabella sezione 1 */
+
+.tabella-fatturazione {
+    width: 100%;
+    float: left;
+    margin: 50px auto;
+}
+
+.parte-sinistra {
+    width: 30%;
+    border: 1px solid #D1D1D4;
+}
+
+.singolo {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #D1D1D4;
+}
+
+.tipo-fatturazione {
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.mese {
+    color: #7C8A95;
+}
+
+.descrizione-offerta {
+    margin-top: 40px;
+}
+
+.fa-pencil-alt span {
+    font-weight: normal;
+}
+
+.gratis {
+    width: 100%;
+    text-align: center;
+}
+
+.bottone-tabella {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 40px;
+    border: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.oppure-acquista {
+    margin: 30px auto;
+    text-align: left;
+}
+
+.oppure-acquista .acquista{
+    color: #3883FF;
+    padding-left: 5px;
+}
+
+hr {
+    width: 60px;
+    color: #D1D1D4;
+}
+
+.punti-salienti {
+    margin-bottom: 250px;
+}
+
+.punti-salienti h2 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.punti-salienti ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.check::before {
+    content: "\2713";
+    color: #3883FF;
+    font-weight: bold;
 }
