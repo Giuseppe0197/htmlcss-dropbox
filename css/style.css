@@ -12,7 +12,7 @@ body {
 
 /* header */
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -145,12 +145,12 @@ body {
 
 .tabella-fatturazione {
     width: 100%;
-    float: left;
     margin: 50px auto;
 }
 
 .parte-sinistra {
     width: 30%;
+    float: left;
     border: 1px solid #D1D1D4;
 }
 
@@ -207,7 +207,7 @@ hr {
 }
 
 .punti-salienti {
-    margin-bottom: 250px;
+    height: 500px;
 }
 
 .punti-salienti h2 {
@@ -229,6 +229,16 @@ hr {
 /* parte centrale della tabella */
 
 .centro {
+    width: 30%;
+    margin: 0 5%;
+    float: left;
+    border: 1px solid #D1D1D4;
+}
+
+/* parte destra */
+
+.parte-destra {
+    float: left;
     width: 30%;
     border: 1px solid #D1D1D4;
 }
