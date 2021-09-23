@@ -225,3 +225,10 @@ hr {
     color: #3883FF;
     font-weight: bold;
 }
+
+/* parte centrale della tabella */
+
+.centro {
+    width: 30%;
+    border: 1px solid #D1D1D4;
+}
