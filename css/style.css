@@ -126,7 +126,7 @@ body {
 
 .prima-sezione {
     width: 70%;
-    margin: 150px auto;
+    margin: 150px auto 40px;
 }
 
 .prima-sezione h2 {
@@ -241,4 +241,46 @@ hr {
     float: left;
     width: 30%;
     border: 1px solid #D1D1D4;
+}
+
+/* sezione 2 */
+
+.sezione-2 {
+    width: 70%;
+    margin: 30px auto;
+    border: 1px solid #D1D1D4;
+}
+
+.team-title {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #D1D1D4;
+}
+
+.enterprise {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#enterprise-title {
+    float: left;
+}
+
+.contatta-ufficio {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 40px;
+    border: none;
+    font-size: 15px;
+    float: right;
+}
+
+#contatta-titolo {
+    font-size: 15px;
+}
+
+#soluzioni {
+    font-size: 15px;
+    padding: 20px 0 30px;
 }
