@@ -284,3 +284,38 @@ hr {
     font-size: 15px;
     padding: 20px 0 30px;
 }
+
+/* sezione 3 */
+
+.sezione-3 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.partner-image {
+    width: 50%;
+    float: left;
+}
+
+.partner-image img {
+    width: 100%;
+}
+
+.partner-informazioni {
+    width: 50%;
+    float: left;
+    padding: 50px 50px;
+}
+
+.partner-informazioni p {
+    margin-top: 30px;
+}
+
+.partner-informazioni button {
+    color: #555555;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #181818;
+}
