@@ -26,6 +26,7 @@ body {
     position: relative;
     padding-top: 20px;
     position: fixed;
+    z-index: 99;
 }
 
 .navigazione img {
@@ -208,7 +209,7 @@ hr {
 }
 
 .punti-salienti {
-    height: 500px;
+    min-height: 500px;
 }
 
 .punti-salienti h2 {
@@ -352,4 +353,180 @@ hr {
 
 #paper {
     text-decoration: underline;
+}
+
+/* sezione 5 */
+
+.titolo-sezione-5 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.titolo-sezione-5 h2 {
+    width: 40%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#scopri-nostri-clienti {
+    color: #488EFF;
+}
+
+/* blocchi colorati della sezione 5 */
+
+/* .blocchi {
+    width: 100%;
+} */
+
+/* blocco sinistra */
+
+.blocco-sinistra {
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+
+#blocco-sopra-1 {
+    width: 50%;
+    height: 200px;
+    background-color: #A2D39B;
+    border: 8px solid #D0E9CD;
+    float: left;
+    position: relative;
+}
+
+.loghi {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter:invert(100%);
+}
+
+#blocco-sopra-2 {
+    width: 50%;
+    height: 200px;
+    background-color: #61082B;
+    float: left;
+    position: relative;
+}
+
+#blocco-sotto-1 {
+    width: 50%;
+    height: 200px;
+    background-color: #0093CE;
+    float: left;
+    position: relative;
+}
+
+#blocco-sotto-2 {
+    width: 50%;
+    height: 200px;
+    background-color: #FF1C1C;
+    float: left;
+    position: relative;
+}
+
+
+/* blocco centro */
+
+.blocco-centro {
+    width: 40%;
+    height: 400px;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.blocco-centro-spiegazione {
+    width: 90%;
+    margin: auto;
+}
+
+.blocco-centro-spiegazione img {
+    width: 25%;
+    margin: 40px auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #E4E4E5;
+}
+
+#citazione {
+    margin-top: 50px;
+}
+
+/* blocco destra */
+
+.blocco-destra {
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: tomato;
+}
+
+#blocco-sopra-destra-1 {
+    width: 50%;
+    height: 200px;
+    background-color: #D5001F;
+    float: left;
+    position: relative;
+}
+
+#blocco-sopra-destra-2 {
+    width: 50%;
+    height: 200px;
+    background-color: #B4D0E7;
+    float: left;
+    position: relative;
+}
+
+#blocco-sotto-destra-1 {
+    width: 50%;
+    height: 200px;
+    background-color: #0D2481;
+    float: left;
+    position: relative;
+}
+
+#blocco-sotto-destra-2 {
+    width: 50%;
+    height: 200px;
+    background-color: #FFD830;
+    float: left;
+    position: relative;
+}
+
+/* blocco sotto */
+
+.dropbox-business {
+    background-color: #B4D0E7;
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+.title-button {
+    width: 80%;
+    margin: 200px auto;
+}
+
+#dropbox-title {
+    width: 50%;
+    font-size: 50px;
+    color: #6D2344;
+    float: left;
+}
+
+#dropbox-button {
+    color: #717171;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    padding: 5px 30px;
+    float: right;
+}
+
+.sezione-6 {
+    width: 80%;
+    margin: auto;
 }
