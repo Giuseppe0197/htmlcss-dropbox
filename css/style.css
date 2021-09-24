@@ -357,6 +357,10 @@ hr {
 
 /* sezione 5 */
 
+.sezione-5 {
+    width: 100%;
+}
+
 .titolo-sezione-5 {
     width: 70%;
     margin: 100px auto;
@@ -374,9 +378,9 @@ hr {
 
 /* blocchi colorati della sezione 5 */
 
-/* .blocchi {
+.blocchi {
     width: 100%;
-} */
+}
 
 /* blocco sinistra */
 
@@ -526,7 +530,79 @@ hr {
     float: right;
 }
 
+/* sezione 6 */
+
 .sezione-6 {
     width: 80%;
+    margin: 80px auto;
+}
+
+.sezione-6 h2 {
+    border-bottom: 2px solid #E4E4E6;
+    padding-bottom: 40px;
+}
+
+.domande {
+    border-bottom: 2px solid #E4E4E6;
+    padding: 30px 0;
+}
+.domande h4 {
+    float: left;
+}
+
+.fa-angle-down {
+    float: right;
+    margin-right: 20px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    min-height: 600px;
+    background-color: black;
+}
+
+.liste {
+    width: 80%;
     margin: auto;
+}
+
+.list-footer {
+    width: calc(100% / 5 - 20px);
+    float: left;
+    margin-right: 20px;
+}
+
+.list-footer h3 {
+    color: white;
+    padding-top: 100px;
+}
+
+.lista-finale {
+    margin-top: 20px;
+}
+
+.lista-finale li {
+    list-style-type: none;
+    color: white;
+    padding-top: 10px;
+}
+
+/* parte bassa del footer */
+
+.parte-bassa-footer {
+    width: 80%;
+    margin: auto;
+}
+
+.globo {
+    width: 100px;
+    margin-top: 100px;
+    border-top: 1px solid #484848;
+}
+
+.fa-globe-americas, .fa-sort-up {
+    padding-top: 50px;
+    color: #999999;
 }
