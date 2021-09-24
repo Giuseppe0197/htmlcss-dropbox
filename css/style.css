@@ -376,7 +376,7 @@ hr {
     color: #488EFF;
 }
 
-/* blocchi colorati della sezione 5 */
+/* blocchi colorati della sezione 6 */
 
 .blocchi {
     width: 100%;
@@ -464,7 +464,6 @@ hr {
     width: 30%;
     height: 400px;
     float: left;
-    background-color: tomato;
 }
 
 #blocco-sopra-destra-1 {
@@ -501,6 +500,10 @@ hr {
 
 /* blocco sotto */
 
+.sezione-7 {
+    margin-bottom: 50px;
+}
+
 .dropbox-business {
     background-color: #B4D0E7;
     width: 100%;
@@ -530,14 +533,14 @@ hr {
     float: right;
 }
 
-/* sezione 6 */
+/* sezione 8 */
 
-.sezione-6 {
+.sezione-8 {
     width: 80%;
     margin: 80px auto;
 }
 
-.sezione-6 h2 {
+.sezione-8 h2 {
     border-bottom: 2px solid #E4E4E6;
     padding-bottom: 40px;
 }
