@@ -629,22 +629,24 @@ hr {
 }
 .domande h4 {
     float: left;
+    width: 90%;
 }
 
 .fa-angle-down {
     float: right;
-    margin-right: 20px;
+    width: 10%;
 }
 
-.fa-angle-down span {
-    width: 90%;
-    margin: auto;
+.p-angle {
+    width: 70%;
+    margin: auto 80px;
+    padding-top: 40px;
     display: none;
 }
 
-.fa-angle-down:hover span {
+.fa-angle-down:hover + .p-angle {
     display: block;
-    color: rgb(153, 153, 153);
+    color: rgb(70, 69, 69);
 }
 
 /* footer */
