@@ -45,6 +45,15 @@ body {
     font-weight: bold;
 }
 
+.prima-lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+.prima-lista li a:hover {
+    text-decoration: underline;
+}
+
 .seconda-lista {
     position: absolute;
     top: 20px;
@@ -58,11 +67,44 @@ body {
     font-weight: bold;
 }
 
+.seconda-lista li a {
+    text-decoration: none;
+    color: black;
+}
+
+.seconda-lista li a:hover {
+    text-decoration: underline;
+}
+
+.menu-scomparsa {
+    display: none;
+}
+
+#homemenu {
+    position: relative;
+}
+
+#homemenu:hover ul {
+    display: block;
+    width: 100px;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+}
+
+#homemenu:hover ul li {
+    padding-top: 15px;
+}
+
 #bottone-inizia {
     color: white;
     background-color:  #0061FF;
     padding: 5px 15px;
     border: none;
+}
+
+#bottone-inizia:hover {
+    background-color: #5e9cff;
 }
 
 /* jumbo */
@@ -102,6 +144,10 @@ body {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+#prova-gratuita:hover {
+    background-color: #5e9cff;
 }
 
 #annulla {
@@ -193,6 +239,10 @@ body {
     font-weight: bold;
 }
 
+.bottone-tabella:hover {
+    background-color: #5e9cff;
+}
+
 .oppure-acquista {
     margin: 30px auto;
     text-align: left;
@@ -278,6 +328,10 @@ hr {
     float: right;
 }
 
+.contatta-ufficio:hover {
+    background-color: #5e9cff;
+}
+
 #contatta-titolo {
     font-size: 15px;
 }
@@ -320,6 +374,10 @@ hr {
     font-size: 15px;
     padding: 5px 10px;
     border: 1px solid #181818;
+}
+
+.trova-partner-button:hover {
+    background-color: #b9b8b8;
 }
 
 /* sezione 4 */
@@ -533,6 +591,10 @@ hr {
     float: right;
 }
 
+#dropbox-button:hover {
+    background-color: rgb(194, 194, 194);
+}
+
 /* sezione 8 */
 
 .sezione-8 {
@@ -572,9 +634,9 @@ footer {
 }
 
 .list-footer {
-    width: calc(100% / 5 - 20px);
+    width: calc(100% / 5);
     float: left;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .list-footer h3 {
@@ -590,6 +652,15 @@ footer {
     list-style-type: none;
     color: white;
     padding-top: 10px;
+}
+
+.lista-finale li a {
+    text-decoration: none;
+    color: white;
+}
+
+.lista-finale li a:hover {
+    text-decoration: underline;
 }
 
 /* parte bassa del footer */
